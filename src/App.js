@@ -1,4 +1,3 @@
-import { useState } from "react";
 function App() {
   const pushToGithub = () => {
     let textToCopy = `
@@ -28,22 +27,23 @@ git push -u origin next`;
   return (
     <div style={{ fontFamily: "verdana" }}>
       <div style={{ float: "left", width: "50%", height: "100%" }}>
-        <h2 rows="4">git add .</h2>
-        <h2>git commit -m "update"</h2>
-        <h2>git push</h2>
+        <h3>git add .</h3>
+        <h3>git commit -m "update"</h3>
+        <h3>git push</h3>
         <button onClick={pushToGithub} style={{ cursor: "pointer" }}>
           COPY
         </button>
         <h4>-- then --</h4>
-        <h2>npm run deploy</h2>
+        <h3>npm run deploy</h3>
         <button onClick={deployToGithub} style={{ cursor: "pointer" }}>
           COPY
         </button>
       </div>
       <div style={{ float: "left", width: "50%", height: "100%" }}>
-        <h2 rows="4">git add .</h2>
-        <h2>git commit -m "update"</h2>
-        <h2>git push</h2>
+        <h3>git status</h3>
+        <h3>git add .</h3>
+        <h3>git commit -m "Commit to next branch"</h3>
+        <h3>git push -u origin next</h3>
         <button onClick={pushToFirebase} style={{ cursor: "pointer" }}>
           COPY
         </button>

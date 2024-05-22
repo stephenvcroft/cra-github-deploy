@@ -1,5 +1,5 @@
 function App() {
-  return <h1>cra-github-deploy</h1>;
+  return <h2>cra-github-deploy</h2>;
 }
 
 export default App;

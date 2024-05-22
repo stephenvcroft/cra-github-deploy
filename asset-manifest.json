@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/cra-github-deploy/static/js/main.90669c60.js",
+    "main.js": "/cra-github-deploy/static/js/main.fa2fe9b1.js",
     "index.html": "/cra-github-deploy/index.html",
-    "main.90669c60.js.map": "/cra-github-deploy/static/js/main.90669c60.js.map"
+    "main.fa2fe9b1.js.map": "/cra-github-deploy/static/js/main.fa2fe9b1.js.map"
   },
   "entrypoints": [
-    "static/js/main.90669c60.js"
+    "static/js/main.fa2fe9b1.js"
   ]
 }
